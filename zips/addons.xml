@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.thepromise"
        name="ThePromise"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="Hacker0x00">
     <requires>
         <!-- <import addon="script.thepromise.artwork" /> -->
@@ -12,12 +12,12 @@
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
-        <!-- <import addon="plugin.video.usgotv" optional="true" />
+        <import addon="plugin.video.usgotv" optional="true" />
         <import addon="plugin.video.swifttv" optional="true" />
         <import addon="plugin.video.taptv" optional="true" />
         <import addon="plugin.video.lntv" optional="true" />
         <import addon="plugin.video.rbtv" optional="true" />
-        <import addon="plugin.video.youtube" optional="true" /> -->
+        <import addon="plugin.video.youtube" optional="true" />
     </requires>
     <extension library="thepromise.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -43,7 +43,7 @@
     </extension>
 </addon>
 
-<addon id="repository.hacker0x00" name="repository.hacker0x00" version="1.0.1" provider-name="Hacker0x00">
+<addon id="repository.hacker0x00" name="repository.hacker0x00" version="1.0.2" provider-name="Hacker0x00">
     <extension point="xbmc.addon.repository" name="Hacker0x00 Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/shishohf/hacker0x00-kodi/master/zips/addons.xml</info>
