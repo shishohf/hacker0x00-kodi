@@ -8,7 +8,7 @@ def chk():
     return True
 
 tmdb_key = ensure_text(base64.b64decode(b'NDYwYTcxY2Q4ODBkMTlhZWY3ZDM1MzQzMThlY2ZhZGU=')) if chk() else ''
-tvdb_key = ensure_text(base64.b64decode(b'MWFhNmU3MzAtMzQwNS00YmI3LWE5OGEtNGU4OWVjOWNiMzc2')) if chk() else ''
+tvdb_key = ensure_text(base64.b64decode(b'NjZkY2JlMTYtODFkYy00ZDllLWFmYTItNGYwYTA1OWQyZWY0')) if chk() else ''
 omdb_key = ensure_text(base64.b64decode(b'MWQ2MGJkZDM=')) if chk() else ''
 fanarttv_key = ensure_text(base64.b64decode(b'MDhkZWU5MmFiMTgzNDFmMzY0Yjk1Zjg1M2M4ZmQzZDU=')) if chk() else ''
 yt_key = ensure_text(base64.b64decode(b'Y19QN0xsOHRHeWEwZ1RLRWFrZFZ4V1dOaW9QdzZfX3dEeVNheklB')) if chk() else ''
