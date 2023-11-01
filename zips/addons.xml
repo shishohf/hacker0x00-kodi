@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.thepromise"
        name="ThePromise"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Hacker0x00">
     <requires>
         <!-- <import addon="script.thepromise.artwork" /> -->
