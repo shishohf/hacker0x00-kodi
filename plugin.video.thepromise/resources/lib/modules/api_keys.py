@@ -5,9 +5,9 @@ from six import ensure_text
 
 
 def chk():
-    return True;
+    return True
 
-tmdb_key = ensure_text(base64.b64decode(b'ZjhhZjg4OThlYjAwNWEwMmZiNWM5NjI4MTE0MzZhNjA=')) if chk() else ''
+tmdb_key = ensure_text(base64.b64decode(b'NDYwYTcxY2Q4ODBkMTlhZWY3ZDM1MzQzMThlY2ZhZGU=')) if chk() else ''
 tvdb_key = ensure_text(base64.b64decode(b'MWFhNmU3MzAtMzQwNS00YmI3LWE5OGEtNGU4OWVjOWNiMzc2')) if chk() else ''
 omdb_key = ensure_text(base64.b64decode(b'MWQ2MGJkZDM=')) if chk() else ''
 fanarttv_key = ensure_text(base64.b64decode(b'MDhkZWU5MmFiMTgzNDFmMzY0Yjk1Zjg1M2M4ZmQzZDU=')) if chk() else ''
