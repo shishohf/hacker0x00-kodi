@@ -27,8 +27,7 @@ from ast import literal_eval as evaluate
 import six
 
 try:
-##    from sqlite3 import dbapi2 as db, OperationalError
-    import sqlite3 as db
+    from sqlite3 import dbapi2 as db, OperationalError
 except ImportError:
     from pysqlite2 import dbapi2 as db, OperationalError
 
@@ -114,8 +113,7 @@ def cache_get(key):
         cursor = _get_connection_cursor()
         cursor.execute("SELECT * FROM %s WHERE key = ?" % cache_table, [key])
         return cursor.fetchone()
-##    except OperationalError:
-    except:
+    except OperationalError:
         return None
 
 def cache_insert(key, value):
@@ -270,5 +268,4 @@ def _is_cache_valid(cached_time, cache_timeout):
     now = int(time.time())
     diff = now - cached_time
     return (cache_timeout * 3600) > diff
-
 

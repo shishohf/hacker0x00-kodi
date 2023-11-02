@@ -21,7 +21,7 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['moviebb.net', 'fast32.com']
+        self.domains = ['fast32.com']
         self.base_link = custom_base or 'https://fast32.com'
         self.search_link = '/search-movies/%s.html'
         self.session = requests.Session()

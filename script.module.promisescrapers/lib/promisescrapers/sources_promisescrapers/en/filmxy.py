@@ -92,9 +92,8 @@ class source:
 
             for url, qual in links:
                 try:
-##                    valid, host = source_utils.is_host_valid(url, hostDict)
-##                    if valid:
-                        valid, host = source_utils.is_host_valid(url, hostDict)
+                    valid, host = source_utils.is_host_valid(url, hostDict)
+                    if valid:
                         quality = source_utils.check_sd_url(qual)
                         sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url,
                                         'direct': False, 'debridonly': False})

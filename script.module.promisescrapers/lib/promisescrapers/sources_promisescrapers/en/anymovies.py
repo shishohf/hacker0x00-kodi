@@ -59,9 +59,8 @@ class source:
                 try:
                     links = re.findall('<span class="text"><a href="(.+?)" target="_blank">', r)
                     for link in links:
-##                        valid, host = source_utils.is_host_valid(link, hostDict)
-##                        if valid:
-                            valid, host = source_utils.is_host_valid(link, hostDict)
+                        valid, host = source_utils.is_host_valid(link, hostDict)
+                        if valid:
                             sources.append({'source': host, 'quality': 'HD', 'language': 'en', 'url': link, 'direct': False, 'debridonly': False})
                 except:
                     return
@@ -73,4 +72,3 @@ class source:
 
     def resolve(self, url):
         return url
-

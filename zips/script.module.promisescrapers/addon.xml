@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.promisescrapers"
        name="PromiseScrapers Module"
-       version="22.4.28"
-       provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
+       version="22.6.30"
+       provider-name="[COLORpurple]• [COLORorchid]Sh[COLORdarkorchid]in[COLORplum]ks[COLORpurple]•[/COLOR]">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />

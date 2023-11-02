@@ -1,7 +1,4 @@
 # -*- coding: UTF-8 -*-
-# Created by Tempest
-# Rewritten for ThePromise
-
 
 import re
 from promisescrapers.modules import cleantitle
@@ -19,8 +16,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['cmovies.online']
-        self.base_link = custom_base or 'https://cmovies.online'
+        self.domains = ['cmovies.vc']
+        self.base_link = custom_base or 'http://cmovies.vc/'
         self.movie_link = '/film/%s/watching.html?ep=0'
         self.tv_link = '/film/%s-season-%s/watching.html?ep=%s'
 
